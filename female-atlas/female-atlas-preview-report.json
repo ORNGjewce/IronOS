@@ -1,0 +1,1202 @@
+{
+  "side": 1,
+  "midline_x": 0.0,
+  "warning": "Preview only. Includes bones and other non-skin context; not yet muscle-mapped.",
+  "objects": [
+    {
+      "source": "1-е_Ребро.001_mesh.480",
+      "status": "included",
+      "original_faces": 2726
+    },
+    {
+      "source": "1-й_Моляр_верх.001_mesh.054",
+      "status": "included",
+      "original_faces": 1564
+    },
+    {
+      "source": "1-й_Моляр_низ.001_mesh.108",
+      "status": "included",
+      "original_faces": 2590
+    },
+    {
+      "source": "1-й_Премоляр_верх.001_mesh.056",
+      "status": "included",
+      "original_faces": 1572
+    },
+    {
+      "source": "1-й_Премоляр_низ.001_mesh.095",
+      "status": "included",
+      "original_faces": 1184
+    },
+    {
+      "source": "1-я_Дистальная_фаланга_кисть.001_mesh.50",
+      "status": "included",
+      "original_faces": 200
+    },
+    {
+      "source": "1-я_Дистальная_фаланга_ступня.001_mesh.",
+      "status": "included",
+      "original_faces": 88
+    },
+    {
+      "source": "1-я_Плюсневая_кость_ступня.001_mesh.569",
+      "status": "included",
+      "original_faces": 616
+    },
+    {
+      "source": "1-я_Проксимальная_фаланга_кисть.001_m",
+      "status": "included",
+      "original_faces": 177
+    },
+    {
+      "source": "1-я_Проксимальная_фаланга_ступня.001",
+      "status": "included",
+      "original_faces": 560
+    },
+    {
+      "source": "1-я_Пястная_кость_кисть.001_mesh.551",
+      "status": "included",
+      "original_faces": 600
+    },
+    {
+      "source": "10-ое_Ребро.001_mesh.490",
+      "status": "included",
+      "original_faces": 3431
+    },
+    {
+      "source": "11-ое_Ребро_Ложное.001_mesh.491",
+      "status": "included",
+      "original_faces": 1460
+    },
+    {
+      "source": "12-ое_Ребро_Ложное.001_mesh.492",
+      "status": "included",
+      "original_faces": 1196
+    },
+    {
+      "source": "2-й_Моляр_верх.001_mesh.068",
+      "status": "included",
+      "original_faces": 1480
+    },
+    {
+      "source": "2-й_Моляр_низ.001_mesh.111",
+      "status": "included",
+      "original_faces": 1320
+    },
+    {
+      "source": "2-й_Премоляр_верх.001_mesh.069",
+      "status": "included",
+      "original_faces": 1476
+    },
+    {
+      "source": "2-й_Премоляр_низ.001_mesh.107",
+      "status": "included",
+      "original_faces": 1312
+    },
+    {
+      "source": "2-ое_Ребро.001_mesh.481",
+      "status": "included",
+      "original_faces": 2859
+    },
+    {
+      "source": "2-я_Дистальная_фаланга_кисть.001_mesh.50",
+      "status": "included",
+      "original_faces": 366
+    },
+    {
+      "source": "2-я_Дистальная_фаланга_ступня.001_mesh.",
+      "status": "included",
+      "original_faces": 79
+    },
+    {
+      "source": "2-я_Плюсневая_кость_ступня.001_mesh.584",
+      "status": "included",
+      "original_faces": 1097
+    },
+    {
+      "source": "2-я_Проксимальная_фаланга_кисть.001_m",
+      "status": "included",
+      "original_faces": 773
+    },
+    {
+      "source": "2-я_Проксимальная_фаланга_ступня.001",
+      "status": "included",
+      "original_faces": 420
+    },
+    {
+      "source": "2-я_Пястная_кость_кисть.001_mesh.552",
+      "status": "included",
+      "original_faces": 711
+    },
+    {
+      "source": "2-я_Средняя_фаланга_кисть.001_mesh.512",
+      "status": "included",
+      "original_faces": 774
+    },
+    {
+      "source": "2-я_Средняя_фаланга_ступня.001_mesh.576",
+      "status": "included",
+      "original_faces": 61
+    },
+    {
+      "source": "3-е_Ребро.001_mesh.482",
+      "status": "included",
+      "original_faces": 3053
+    },
+    {
+      "source": "3-й_Моляр_верх.001_mesh.055",
+      "status": "included",
+      "original_faces": 1564
+    },
+    {
+      "source": "3-й_Моляр_низ.001_mesh.115",
+      "status": "included",
+      "original_faces": 2590
+    },
+    {
+      "source": "3-я_Дистальная_фаланга_кисть.001_mesh.50",
+      "status": "included",
+      "original_faces": 366
+    },
+    {
+      "source": "3-я_Дистальная_фаланга_ступня.001_mesh.",
+      "status": "included",
+      "original_faces": 56
+    },
+    {
+      "source": "3-я_Плюсневая_кость_ступня.001_mesh.586",
+      "status": "included",
+      "original_faces": 1028
+    },
+    {
+      "source": "3-я_Проксимальная_фаланга_кисть.001_m",
+      "status": "included",
+      "original_faces": 773
+    },
+    {
+      "source": "3-я_Проксимальная_фаланга_ступня.001",
+      "status": "included",
+      "original_faces": 412
+    },
+    {
+      "source": "3-я_Пястная_кость_кисть.001_mesh.553",
+      "status": "included",
+      "original_faces": 764
+    },
+    {
+      "source": "3-я_Средняя_фаланга_кисть.001_mesh.511",
+      "status": "included",
+      "original_faces": 774
+    },
+    {
+      "source": "3-я_Средняя_фаланга_ступня.001_mesh.577",
+      "status": "included",
+      "original_faces": 73
+    },
+    {
+      "source": "4-ое_Ребро.001_mesh.483",
+      "status": "included",
+      "original_faces": 3038
+    },
+    {
+      "source": "4-я_Дистальная_фаланга_кисть.001_mesh.50",
+      "status": "included",
+      "original_faces": 366
+    },
+    {
+      "source": "4-я_Дистальная_фаланга_ступня.001_mesh.",
+      "status": "included",
+      "original_faces": 72
+    },
+    {
+      "source": "4-я_Плюсневая_кость_ступня.001_mesh.570",
+      "status": "included",
+      "original_faces": 992
+    },
+    {
+      "source": "4-я_Проксимальная_фаланга_кисть.001_m",
+      "status": "included",
+      "original_faces": 774
+    },
+    {
+      "source": "4-я_Проксимальная_фаланга_ступня.001",
+      "status": "included",
+      "original_faces": 389
+    },
+    {
+      "source": "4-я_Пястная_кость_кисть.001_mesh.554",
+      "status": "included",
+      "original_faces": 761
+    },
+    {
+      "source": "4-я_Средняя_фаланга_кисть.001_mesh.513",
+      "status": "included",
+      "original_faces": 774
+    },
+    {
+      "source": "4-я_Средняя_фаланга_ступня.001_mesh.575",
+      "status": "included",
+      "original_faces": 63
+    },
+    {
+      "source": "5-ое_Ребро.001_mesh.484",
+      "status": "included",
+      "original_faces": 2787
+    },
+    {
+      "source": "5-я_Дистальная_фаланга_кисть.001_mesh.51",
+      "status": "included",
+      "original_faces": 366
+    },
+    {
+      "source": "5-я_Дистальная_фаланга_ступня.001_mesh.",
+      "status": "included",
+      "original_faces": 68
+    },
+    {
+      "source": "5-я_Плюсневая_кость_ступня.001_mesh.568",
+      "status": "included",
+      "original_faces": 772
+    },
+    {
+      "source": "5-я_Проксимальная_фаланга_кисть.001_m",
+      "status": "included",
+      "original_faces": 776
+    },
+    {
+      "source": "5-я_Проксимальная_фаланга_ступня.001",
+      "status": "included",
+      "original_faces": 382
+    },
+    {
+      "source": "5-я_Пястная_кость_кисть.001_mesh.555",
+      "status": "included",
+      "original_faces": 809
+    },
+    {
+      "source": "5-я_Средняя_фаланга_кисть.001_mesh.514",
+      "status": "included",
+      "original_faces": 774
+    },
+    {
+      "source": "5-я_Средняя_фаланга_ступня.001_mesh.574",
+      "status": "included",
+      "original_faces": 54
+    },
+    {
+      "source": "6-ое_Ребро.001_mesh.486",
+      "status": "included",
+      "original_faces": 2833
+    },
+    {
+      "source": "7-ое_Ребро.001_mesh.487",
+      "status": "included",
+      "original_faces": 3142
+    },
+    {
+      "source": "8-ое_Ребро.001_mesh.488",
+      "status": "included",
+      "original_faces": 3327
+    },
+    {
+      "source": "9-ое_Ребро.001_mesh.489",
+      "status": "included",
+      "original_faces": 3336
+    },
+    {
+      "source": "C1_Первый_шейный_позвонок.001_mesh.117",
+      "status": "included",
+      "original_faces": 77182
+    },
+    {
+      "source": "Eye_Cornea.004_Sphere.015",
+      "status": "included",
+      "original_faces": 1184
+    },
+    {
+      "source": "Eye_Sclera.004_Sphere.016",
+      "status": "included",
+      "original_faces": 5248
+    },
+    {
+      "source": "Бедренная_кость.001_mesh.557",
+      "status": "included",
+      "original_faces": 7688
+    },
+    {
+      "source": "Белая_линия_живота.001_mesh.637",
+      "status": "included",
+      "original_faces": 622
+    },
+    {
+      "source": "Боковой_резец_верх.001_mesh.057",
+      "status": "included",
+      "original_faces": 1264
+    },
+    {
+      "source": "Боковой_резец_низ.001_mesh.071",
+      "status": "included",
+      "original_faces": 1400
+    },
+    {
+      "source": "Большая_грудная_мышца.001_mesh.602",
+      "status": "included",
+      "original_faces": 3218
+    },
+    {
+      "source": "Большая_круглая_мышца.001_Plane.167",
+      "status": "included",
+      "original_faces": 718
+    },
+    {
+      "source": "Большая_поясничная_мышца.002_mesh.702",
+      "status": "included",
+      "original_faces": 2841
+    },
+    {
+      "source": "Большая_приводящая_мышца.002_mesh.696",
+      "status": "included",
+      "original_faces": 1469
+    },
+    {
+      "source": "Большая_скуловая_мышца.001_Plane.145",
+      "status": "included",
+      "original_faces": 1596
+    },
+    {
+      "source": "Большая_ягодичная_мышца.002_mesh.691",
+      "status": "included",
+      "original_faces": 3560
+    },
+    {
+      "source": "Большеберцовая_кость.001_mesh.558",
+      "status": "included",
+      "original_faces": 8105
+    },
+    {
+      "source": "Большой_хрящ_крыла_носа.001_Plane.164",
+      "status": "included",
+      "original_faces": 3454
+    },
+    {
+      "source": "Верхний_удерживатель_сухожилий.002_",
+      "status": "included",
+      "original_faces": 397
+    },
+    {
+      "source": "Височная_мышца.001_mesh.588",
+      "status": "included",
+      "original_faces": 15502
+    },
+    {
+      "source": "Вторая_тыльная_межкостная_мшц.002_mes",
+      "status": "included",
+      "original_faces": 244
+    },
+    {
+      "source": "Вторая_червеобразная_мшц_кисти.002_m",
+      "status": "included",
+      "original_faces": 486
+    },
+    {
+      "source": "Глубоие_поперечные_пястные_связ.001",
+      "status": "included",
+      "original_faces": 310
+    },
+    {
+      "source": "Глубокий_Сгибатель_пальцев.002_mesh.648",
+      "status": "included",
+      "original_faces": 2902
+    },
+    {
+      "source": "Глубокий_слой_подкожного_жира.001_Pla",
+      "status": "included",
+      "original_faces": 896
+    },
+    {
+      "source": "Головчатая_кость.001_mesh.503",
+      "status": "included",
+      "original_faces": 447
+    },
+    {
+      "source": "Гороховидная_кость.001_mesh.505",
+      "status": "included",
+      "original_faces": 128
+    },
+    {
+      "source": "Гребенчатая_мышца.002_mesh.699",
+      "status": "included",
+      "original_faces": 695
+    },
+    {
+      "source": "Грудина_Мечевидный_отросток.001_mesh.4",
+      "status": "included",
+      "original_faces": 146
+    },
+    {
+      "source": "Грудина_Рукоятка.001_mesh.477",
+      "status": "included",
+      "original_faces": 450
+    },
+    {
+      "source": "Грудина_Тело.001_mesh.478",
+      "status": "included",
+      "original_faces": 620
+    },
+    {
+      "source": "Грудинно-подъязычная_мышца.001_mesh.596",
+      "status": "included",
+      "original_faces": 949
+    },
+    {
+      "source": "Грудино-ключично-сосцевидная_мш.002",
+      "status": "included",
+      "original_faces": 2533
+    },
+    {
+      "source": "Двубрюшная_мышца.001_mesh.589",
+      "status": "included",
+      "original_faces": 638
+    },
+    {
+      "source": "Двубрюшная_мышца_заднее_брюшко.001_P",
+      "status": "included",
+      "original_faces": 299
+    },
+    {
+      "source": "Двуглавая_мышца_бедра.002_mesh.694",
+      "status": "included",
+      "original_faces": 2726
+    },
+    {
+      "source": "Двуглавая_мышца_плеча.002_mesh.644",
+      "status": "included",
+      "original_faces": 3746
+    },
+    {
+      "source": "Дельтовидная_мышца_Задний_пучок.002",
+      "status": "included",
+      "original_faces": 1488
+    },
+    {
+      "source": "Дельтовидная_мышца_Передн_пучок.002",
+      "status": "included",
+      "original_faces": 1568
+    },
+    {
+      "source": "Дельтовидная_мышца_Средни_пучок.002",
+      "status": "included",
+      "original_faces": 1742
+    },
+    {
+      "source": "Длинная_ладонная_мышца.002_mesh.649",
+      "status": "included",
+      "original_faces": 2466
+    },
+    {
+      "source": "Длинная_малоберцовая_мышца.002_mesh.708",
+      "status": "included",
+      "original_faces": 966
+    },
+    {
+      "source": "Длинная_отводящая_мышца.002_mesh.661",
+      "status": "included",
+      "original_faces": 1191
+    },
+    {
+      "source": "Длинная_приводящая_мышца.002_mesh.700",
+      "status": "included",
+      "original_faces": 1456
+    },
+    {
+      "source": "Длинный_лучевой_разгибатель.002_mesh.6",
+      "status": "included",
+      "original_faces": 1375
+    },
+    {
+      "source": "Длинный_разгибатель_бльш._пальц.001_",
+      "status": "included",
+      "original_faces": 1240
+    },
+    {
+      "source": "Длинный_разгибатель_большого_пл.001",
+      "status": "included",
+      "original_faces": 1597
+    },
+    {
+      "source": "Длинный_разгибатель_пальцев.002_mesh.7",
+      "status": "included",
+      "original_faces": 2019
+    },
+    {
+      "source": "Длинный_сгибатель_пальцев.002_mesh.710",
+      "status": "included",
+      "original_faces": 1160
+    },
+    {
+      "source": "Дугообразная_фасция.002_mesh.717",
+      "status": "included",
+      "original_faces": 1524
+    },
+    {
+      "source": "Жевательная_мышца_глубокая_част.002",
+      "status": "included",
+      "original_faces": 3440
+    },
+    {
+      "source": "Жевательная_мышца_поверх._часть.001_",
+      "status": "included",
+      "original_faces": 8320
+    },
+    {
+      "source": "Жировая_ткань_скулы.003_Plane.057",
+      "status": "included",
+      "original_faces": 1716
+    },
+    {
+      "source": "Жировая_ткань_скулы.004_Plane.136",
+      "status": "included",
+      "original_faces": 1874
+    },
+    {
+      "source": "Жировая_ткань_скулы.005_Plane.137",
+      "status": "included",
+      "original_faces": 1146
+    },
+    {
+      "source": "Жировое_тело_щеки.001_mesh.587",
+      "status": "included",
+      "original_faces": 2877
+    },
+    {
+      "source": "Затылочное_брюшко.001_Plane.139",
+      "status": "included",
+      "original_faces": 6973
+    },
+    {
+      "source": "Икроножная_мышца.002_mesh.715",
+      "status": "included",
+      "original_faces": 6288
+    },
+    {
+      "source": "Камбаловидная_мышца.002_mesh.716",
+      "status": "included",
+      "original_faces": 1788
+    },
+    {
+      "source": "Клык_верх.001_mesh.053",
+      "status": "included",
+      "original_faces": 1364
+    },
+    {
+      "source": "Клык_низ.001_mesh.093",
+      "status": "included",
+      "original_faces": 1176
+    },
+    {
+      "source": "Клювовидно-плечавая_мышца.002_mesh.645",
+      "status": "included",
+      "original_faces": 597
+    },
+    {
+      "source": "Ключица.001_mesh.493",
+      "status": "included",
+      "original_faces": 4535
+    },
+    {
+      "source": "Коленная_чашечка.001_mesh.559",
+      "status": "included",
+      "original_faces": 534
+    },
+    {
+      "source": "Короткая_малоберцовая_мышца.002_mesh.7",
+      "status": "included",
+      "original_faces": 966
+    },
+    {
+      "source": "Короткая_мшц._отводящая_б._палец.002_",
+      "status": "included",
+      "original_faces": 330
+    },
+    {
+      "source": "Короткий_лучевой_разгибатель.002_mesh",
+      "status": "included",
+      "original_faces": 1468
+    },
+    {
+      "source": "Короткий_разгибатель_пальцев.002_mesh",
+      "status": "included",
+      "original_faces": 1537
+    },
+    {
+      "source": "Короткий_сгибатель_пальцев.002_mesh.712",
+      "status": "included",
+      "original_faces": 1732
+    },
+    {
+      "source": "Кость-трапеция.001_mesh.501",
+      "status": "included",
+      "original_faces": 436
+    },
+    {
+      "source": "Круглый_пронатор.002_mesh.650",
+      "status": "included",
+      "original_faces": 1066
+    },
+    {
+      "source": "Круговая_мышца_глаза.001_mesh.593",
+      "status": "included",
+      "original_faces": 13162
+    },
+    {
+      "source": "Круговая_мышца_рта.001_RetopoFlow.003",
+      "status": "included",
+      "original_faces": 6523
+    },
+    {
+      "source": "Крыло_носа_Фиброзно-жировая_тка.002_",
+      "status": "included",
+      "original_faces": 4046
+    },
+    {
+      "source": "Крючковидная_кость.001_mesh.504",
+      "status": "included",
+      "original_faces": 581
+    },
+    {
+      "source": "Кубовидная_кость.001_mesh.562",
+      "status": "included",
+      "original_faces": 924
+    },
+    {
+      "source": "Ладьевидная_кость.002_mesh.498",
+      "status": "included",
+      "original_faces": 451
+    },
+    {
+      "source": "Ладьевидная_кость.003_mesh.578",
+      "status": "included",
+      "original_faces": 918
+    },
+    {
+      "source": "Латеральная_клиновидная_кость.001_me",
+      "status": "included",
+      "original_faces": 815
+    },
+    {
+      "source": "Латеральная_широкая_мышца_бедра.002",
+      "status": "included",
+      "original_faces": 2393
+    },
+    {
+      "source": "Латеральный_хрящ_носа.001_Plane.162",
+      "status": "included",
+      "original_faces": 2138
+    },
+    {
+      "source": "Локтевая_кость.001_mesh.495",
+      "status": "included",
+      "original_faces": 7062
+    },
+    {
+      "source": "Локтевая_мышца.002_mesh.660",
+      "status": "included",
+      "original_faces": 798
+    },
+    {
+      "source": "Локтевой_разгибатель_запястья.002_me",
+      "status": "included",
+      "original_faces": 1655
+    },
+    {
+      "source": "Локтевой_сгибатель_запястья.002_mesh.6",
+      "status": "included",
+      "original_faces": 1577
+    },
+    {
+      "source": "Лонное_сочленение.001_Cube.009",
+      "status": "included",
+      "original_faces": 112
+    },
+    {
+      "source": "Лопатка.001_mesh.494",
+      "status": "included",
+      "original_faces": 11844
+    },
+    {
+      "source": "Лучевая_кость.001_mesh.496",
+      "status": "included",
+      "original_faces": 6235
+    },
+    {
+      "source": "Лучевой_сгибатель_запястья.002_mesh.652",
+      "status": "included",
+      "original_faces": 1826
+    },
+    {
+      "source": "Малая_круглая_мышца.001_Plane.168",
+      "status": "included",
+      "original_faces": 469
+    },
+    {
+      "source": "Малая_скуловая_мышца.001_Plane.147",
+      "status": "included",
+      "original_faces": 1842
+    },
+    {
+      "source": "Малоберцовая_кость.001_mesh.560",
+      "status": "included",
+      "original_faces": 2697
+    },
+    {
+      "source": "Медиальная_клиновидная_кость.001_mesh",
+      "status": "included",
+      "original_faces": 891
+    },
+    {
+      "source": "Медиальная_широкая_мышца_бедра.002_m",
+      "status": "included",
+      "original_faces": 2413
+    },
+    {
+      "source": "Межпозвоночные_диски.001_Cylinder.010",
+      "status": "included",
+      "original_faces": 4382
+    },
+    {
+      "source": "Мия_half_FemaleBaseMesh_Eve_LowRes.005",
+      "status": "included",
+      "original_faces": 734
+    },
+    {
+      "source": "Мия_Брови_half_Plane.038",
+      "status": "no_geometry_on_selected_side",
+      "original_faces": 0
+    },
+    {
+      "source": "Молочная_железа.001_mesh.604",
+      "status": "included",
+      "original_faces": 2462
+    },
+    {
+      "source": "Мышца,_опускающая_бровь.001_Plane.151",
+      "status": "included",
+      "original_faces": 6880
+    },
+    {
+      "source": "Мышца,_опускающая_нижнюю_губу.001_Plan",
+      "status": "included",
+      "original_faces": 1720
+    },
+    {
+      "source": "Мышца,_опускающая_угол_рта.001_Plane.153",
+      "status": "included",
+      "original_faces": 2456
+    },
+    {
+      "source": "Мышца,_поднимающая_верхнюю_губу.001_",
+      "status": "included",
+      "original_faces": 1104
+    },
+    {
+      "source": "Мышца,_поднимающая_угол_рта.001_Plane.15",
+      "status": "included",
+      "original_faces": 1104
+    },
+    {
+      "source": "Мышца_гордецов.001_Plane.148",
+      "status": "included",
+      "original_faces": 4286
+    },
+    {
+      "source": "Мышца_отводящая_больш._палец_сто.001",
+      "status": "included",
+      "original_faces": 627
+    },
+    {
+      "source": "Мышца_отводящая_мизинец.002_mesh.665",
+      "status": "included",
+      "original_faces": 429
+    },
+    {
+      "source": "Мышца_отводящая_мизинец_стопы.002_mes",
+      "status": "included",
+      "original_faces": 463
+    },
+    {
+      "source": "Мышца_поднимающая_крыло_носа.001_Plane",
+      "status": "included",
+      "original_faces": 1842
+    },
+    {
+      "source": "Мышца_смеха.001_Plane.150",
+      "status": "included",
+      "original_faces": 1350
+    },
+    {
+      "source": "Надчерепная_мышца.001_Plane.160",
+      "status": "included",
+      "original_faces": 13866
+    },
+    {
+      "source": "Напрягатель_широкой_фасции_бедр.001",
+      "status": "included",
+      "original_faces": 2465
+    },
+    {
+      "source": "Наружняя_косая_мышца_живота.001_mesh.60",
+      "status": "included",
+      "original_faces": 15162
+    },
+    {
+      "source": "Нижний_удерживатель_сухожилий.002_me",
+      "status": "included",
+      "original_faces": 1318
+    },
+    {
+      "source": "Носовая_мышца_Крыльная_часть.001_Plane",
+      "status": "included",
+      "original_faces": 2702
+    },
+    {
+      "source": "Носовая_мышца_поперечная_часть.001_P",
+      "status": "included",
+      "original_faces": 9830
+    },
+    {
+      "source": "Околоушная_слюнная_железа.001_Plane.045",
+      "status": "included",
+      "original_faces": 3584
+    },
+    {
+      "source": "Панцу.001_mesh.102",
+      "status": "included",
+      "original_faces": 33
+    },
+    {
+      "source": "Первая_тыльная_межкостная_мшц.002_mes",
+      "status": "included",
+      "original_faces": 560
+    },
+    {
+      "source": "Первая_червеобразная_мшц_кисти.002_m",
+      "status": "included",
+      "original_faces": 455
+    },
+    {
+      "source": "Передняя_большеберцовая_мышца.002_me",
+      "status": "included",
+      "original_faces": 2836
+    },
+    {
+      "source": "Передняя_зубчатая_мышца.001_Plane.166",
+      "status": "included",
+      "original_faces": 7215
+    },
+    {
+      "source": "Пластыри.001_Plane.056",
+      "status": "no_geometry_on_selected_side",
+      "original_faces": 0
+    },
+    {
+      "source": "Плечевая_кость.001_mesh.497",
+      "status": "included",
+      "original_faces": 8210
+    },
+    {
+      "source": "Плечевая_мышца_.002_mesh.646",
+      "status": "included",
+      "original_faces": 1144
+    },
+    {
+      "source": "Плечелучевая__мышца.002_mesh.657",
+      "status": "included",
+      "original_faces": 1484
+    },
+    {
+      "source": "Поверхностный_сгибатель_пальце.001_",
+      "status": "included",
+      "original_faces": 1326
+    },
+    {
+      "source": "Подбородочная_мышца.001_Plane.158",
+      "status": "included",
+      "original_faces": 1406
+    },
+    {
+      "source": "Подвздошная_мышца.002_mesh.701",
+      "status": "included",
+      "original_faces": 2886
+    },
+    {
+      "source": "Подвздошно-большеберцовый_трак.001_",
+      "status": "included",
+      "original_faces": 1316
+    },
+    {
+      "source": "Подкожная_мышца_шеи.001_mesh.599",
+      "status": "included",
+      "original_faces": 4823
+    },
+    {
+      "source": "Подостная_мышца.001_mesh.640",
+      "status": "included",
+      "original_faces": 1163
+    },
+    {
+      "source": "Подъязычная_кость.001_Plane.043",
+      "status": "included",
+      "original_faces": 1507
+    },
+    {
+      "source": "Полулунная_кость.001_mesh.499",
+      "status": "included",
+      "original_faces": 492
+    },
+    {
+      "source": "Полуостистая_мышца_головы.001_mesh.600",
+      "status": "included",
+      "original_faces": 1486
+    },
+    {
+      "source": "Полуперепончатая_мышца.002_Plane.169",
+      "status": "included",
+      "original_faces": 1344
+    },
+    {
+      "source": "Полусухожильная_мышца.002_mesh.695",
+      "status": "included",
+      "original_faces": 2721
+    },
+    {
+      "source": "Портняжная_мышца.002_mesh.698",
+      "status": "included",
+      "original_faces": 2047
+    },
+    {
+      "source": "Приводящая_мшц._косая_головка.002_mesh",
+      "status": "included",
+      "original_faces": 267
+    },
+    {
+      "source": "Приводящая_мшц_поперечная_голов.001",
+      "status": "included",
+      "original_faces": 577
+    },
+    {
+      "source": "Промежуточная_клиновидная_кост_mesh",
+      "status": "included",
+      "original_faces": 796
+    },
+    {
+      "source": "Проток_околоушной_железы.001_Plane.007_Cu",
+      "status": "included",
+      "original_faces": 448
+    },
+    {
+      "source": "Прямая_мышца_бедра.002_mesh.705",
+      "status": "included",
+      "original_faces": 2470
+    },
+    {
+      "source": "Пяточная_кость.001_mesh.561",
+      "status": "included",
+      "original_faces": 768
+    },
+    {
+      "source": "Разгибатель_мизинца.002_mesh.658",
+      "status": "included",
+      "original_faces": 591
+    },
+    {
+      "source": "Разгибатель_пальцев.002_mesh.659",
+      "status": "included",
+      "original_faces": 4559
+    },
+    {
+      "source": "Разгибатель_указательного_паль.001_",
+      "status": "included",
+      "original_faces": 452
+    },
+    {
+      "source": "Ременная_мышца_головы.001_mesh.598",
+      "status": "included",
+      "original_faces": 1369
+    },
+    {
+      "source": "Связка_надколенника.002_Plane.172",
+      "status": "included",
+      "original_faces": 612
+    },
+    {
+      "source": "Сесамовидная_кость_кисть.001_Icosphere.00",
+      "status": "included",
+      "original_faces": 480
+    },
+    {
+      "source": "Сесамовидная_кость_ступня.001_Icosphere.",
+      "status": "included",
+      "original_faces": 96
+    },
+    {
+      "source": "Средняя_ягодичная_мышца.002_mesh.693",
+      "status": "included",
+      "original_faces": 2347
+    },
+    {
+      "source": "Сухожильный_шлем.001_Plane.138",
+      "status": "included",
+      "original_faces": 1873
+    },
+    {
+      "source": "Тазовые_кости.001_mesh.556",
+      "status": "included",
+      "original_faces": 10068
+    },
+    {
+      "source": "Таранная_кость.001_mesh.585",
+      "status": "included",
+      "original_faces": 880
+    },
+    {
+      "source": "Тонкая_мышца.002_mesh.697",
+      "status": "included",
+      "original_faces": 2325
+    },
+    {
+      "source": "Трапецивидная_кость.001_mesh.502",
+      "status": "included",
+      "original_faces": 390
+    },
+    {
+      "source": "Трапециевидная_мышца.001_mesh.638",
+      "status": "included",
+      "original_faces": 3369
+    },
+    {
+      "source": "Трахея.001_Plane.161",
+      "status": "included",
+      "original_faces": 622
+    },
+    {
+      "source": "Трахея_хрящи.001_Circle.003",
+      "status": "included",
+      "original_faces": 1336
+    },
+    {
+      "source": "Треться_тыльная_межкостная_мшц.002_m",
+      "status": "included",
+      "original_faces": 233
+    },
+    {
+      "source": "Треться_червеобразная_мшц_кисти.002",
+      "status": "included",
+      "original_faces": 441
+    },
+    {
+      "source": "Трехглавая_мышца_плеча.002_mesh.647",
+      "status": "included",
+      "original_faces": 3127
+    },
+    {
+      "source": "Трехгранная_кость.001_mesh.500",
+      "status": "included",
+      "original_faces": 450
+    },
+    {
+      "source": "Удерживатель_сухожилий_разгиб.002_me",
+      "status": "included",
+      "original_faces": 860
+    },
+    {
+      "source": "Удерживатель_сухожилий_сгиб.002_mesh.6",
+      "status": "included",
+      "original_faces": 256
+    },
+    {
+      "source": "Ухо.001_mesh.601",
+      "status": "included",
+      "original_faces": 2795
+    },
+    {
+      "source": "Ушная_мышца_Верхняя.001_Plane.140",
+      "status": "included",
+      "original_faces": 4422
+    },
+    {
+      "source": "Ушная_мышца_Височно-теменная.001_Plane",
+      "status": "included",
+      "original_faces": 3440
+    },
+    {
+      "source": "Ушная_мышца_Задняя.001_Plane.143",
+      "status": "included",
+      "original_faces": 3440
+    },
+    {
+      "source": "Ушная_мышца_Передняя.001_Plane.142",
+      "status": "included",
+      "original_faces": 2456
+    },
+    {
+      "source": "Хрящ_перегородки_носа.001_Plane.165",
+      "status": "included",
+      "original_faces": 144
+    },
+    {
+      "source": "Центральный_резец_верх.001_mesh.058",
+      "status": "included",
+      "original_faces": 1136
+    },
+    {
+      "source": "Центральный_резец_низ.001_mesh.070",
+      "status": "included",
+      "original_faces": 1362
+    },
+    {
+      "source": "Челюстно-подъязычная_мышца.001_mesh.590",
+      "status": "included",
+      "original_faces": 673
+    },
+    {
+      "source": "Челюсть.001_mesh.050",
+      "status": "included",
+      "original_faces": 22242
+    },
+    {
+      "source": "Череп.002_mesh.051",
+      "status": "included",
+      "original_faces": 60603
+    },
+    {
+      "source": "Четвертая_тыльная_межкостная_мш.001",
+      "status": "included",
+      "original_faces": 218
+    },
+    {
+      "source": "Четвертая_червеобразная_мшц_кис.001",
+      "status": "included",
+      "original_faces": 467
+    },
+    {
+      "source": "Широчайшая_мышца_спины.001_mesh.639",
+      "status": "included",
+      "original_faces": 3191
+    },
+    {
+      "source": "Щечная_мышца.001_Plane.159",
+      "status": "included",
+      "original_faces": 2088
+    },
+    {
+      "source": "Щитовидная_железа.001_mesh.594",
+      "status": "included",
+      "original_faces": 606
+    },
+    {
+      "source": "Щитовидный_хрящ.001_mesh.595",
+      "status": "included",
+      "original_faces": 787
+    }
+  ]
+}

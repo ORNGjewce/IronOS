@@ -1,0 +1,10 @@
+/* IRON//OS Cardio Bay — additive styling */
+.cardioSection{margin:18px 0;padding:16px;border:1px solid #9aa9ad;background:#eae5d9;color:#17334c;border-radius:8px}
+.cardioHeading,.cardioEntryTop{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.cardioHeading small{letter-spacing:.12em;color:#55727a;font-size:10px}.cardioHeading h3{margin:4px 0;color:#c45b3e;letter-spacing:.08em}
+.cardioEntries{display:grid;gap:12px;margin-top:12px}.cardioEntry{padding:14px;border:1px solid #9aa9ad;background:#f6f0e2;border-left:4px solid #427ca5;border-radius:5px}
+.cardioFields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:12px 0}.cardioFields label,.cardioNotes{display:flex;flex-direction:column;gap:5px;font-size:11px;font-weight:700;letter-spacing:.06em;color:#244b61}
+.cardioFields input,.cardioFields select,.cardioNotes textarea{width:100%;box-sizing:border-box;min-width:0;padding:9px;border:1px solid #8ca0a7;border-radius:4px;background:#fffaf0;color:#17334c;font:inherit}
+.cardioSection button{cursor:pointer}.cardioAdd{margin-top:10px;background:#17334c!important;color:#f5e8cd!important;border:1px solid #d8b46a!important;padding:11px 14px;border-radius:4px;font-weight:700}
+.cardioDone{background:#779878!important;color:white!important}.cardioHistory{margin:12px 0;padding:10px;border:1px solid #9aa9ad;border-radius:5px}.cardioHistory p{margin:7px 0}.cardioHistoryEntry{margin:12px 0;padding:10px;border-bottom:1px solid #9aa9ad}
+@media(max-width:520px){.cardioFields{grid-template-columns:1fr}.cardioHeading button{font-size:11px}}

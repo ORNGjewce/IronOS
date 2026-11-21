@@ -1,0 +1,29 @@
+/* IRON//OS Phase 2: additive controls */
+.phase2Records,.phase2Notes{border:1px solid #c8bca6;border-radius:12px;background:#fff9ee;padding:15px;margin:16px 0;color:#172f4c}
+.phase2Header{border-left:4px solid #c45b3e;padding-left:12px;margin:14px 0}.phase2Header small,.phase2Notes small{font-size:11px;letter-spacing:.08em}.phase2Header h3{margin:4px 0;color:#c45b3e}.phase2Header p{margin:5px 0;font-size:13px}
+.phase2Form{display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));gap:10px;align-items:end}.phase2Form label,.phase2Notes label{display:flex;flex-direction:column;gap:5px;font-size:12px;font-weight:700}.phase2Form input,.phase2Form select,.phase2Notes textarea{width:100%;box-sizing:border-box;padding:9px;border:1px solid #b7a992;border-radius:6px;background:#fffdf7;color:#172f4c}
+.phase2Records button,.phase2Notes button,.phase2Upload{border:1px solid #183c60;border-radius:7px;background:#f2e6d0;color:#17385b;font-weight:800;padding:9px 12px;cursor:pointer;font-size:12px}.phase2Form button{background:#dca849}.phase2Record{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #ddd0b9}.phase2Record span{display:flex;flex-direction:column}.phase2Record small{color:#536376}.phase2History{margin:15px 0}.phase2History summary{font-weight:800;cursor:pointer}
+.phase2Upload{display:inline-flex;flex-direction:column;gap:8px}.phase2Upload input{max-width:100%}.phase2Photos{display:grid;grid-template-columns:repeat(auto-fill,minmax(125px,1fr));gap:12px;margin-top:15px}.phase2Photo{display:flex;flex-direction:column;gap:7px}.phase2Photo img{width:100%;height:145px;object-fit:cover;border-radius:7px}.phase2Notes{margin:12px 0;padding:12px}.phase2Notes h4{margin:0 0 10px;color:#c45b3e}.phase2Notes textarea{min-height:55px;resize:vertical}.phase2NoteGroup{margin-bottom:10px}.phase2NoteGroup p{font-size:12px;margin:4px 0}.phase2Notes .phase2NoteSave{margin-top:6px}.phase2Notes .phase2NoteHint{font-size:11px;color:#536376}
+
+/* Echoes of Ganymede-inspired teal four-point favorite markers */
+.phase2PhotoFrame{position:relative}
+.phase2PhotoFrame img{display:block}
+.phase2Records .phase2PhotoFavorite{position:absolute;top:6px;right:6px;width:39px;height:39px;padding:5px;display:flex;align-items:center;justify-content:center;background:rgba(16,30,43,.86);border:1px solid #68bdbb;border-radius:7px;cursor:pointer}
+.phase2PhotoFavorite:focus-visible,.foodFavorite:focus-visible{outline:3px solid #40d6d1;outline-offset:2px}
+.foodFavorite svg{vertical-align:middle}
+.foodQuickLists h3 svg{vertical-align:middle;margin-right:5px}
+
+/* Phase 2.3: history filter, readable note cards, restored themed upload */
+.phase2HistoryFilter{display:flex;flex-direction:column;gap:6px;margin:14px 0 8px;font-size:11px;font-weight:800;letter-spacing:.06em;color:#17385b}
+.phase2HistoryFilter select{width:100%;padding:11px;border:1px solid #b7a992;border-radius:7px;background:#fffdf7;color:#17385b;font:inherit;font-size:14px;letter-spacing:normal}
+.phase2HistoryCount{font-size:11px;font-weight:800;letter-spacing:.06em;color:#687585;margin:10px 0 4px}
+.phase2NotePreviews{display:grid;gap:8px;margin:8px 0}
+.phase2NoteCard{background:#fffdf7;border:1px solid #c8bca6;border-left:4px solid #427ca5;border-radius:7px;padding:11px 12px;color:#17385b}
+.phase2NoteCard strong{font-size:11px;letter-spacing:.07em;color:#265b7c}
+.phase2NoteCard p{font-size:14px;line-height:1.5;font-weight:500;white-space:pre-wrap;overflow-wrap:anywhere;margin:5px 0 0}
+.phase2Reminder{display:block;background:#fff9ee;border:1px solid #c8bca6;border-left:4px solid #c45b3e;box-shadow:none;padding:12px}
+.phase2Reminder strong{color:#a14a32}.phase2Reminder p{font-size:14px;line-height:1.5;font-weight:500}
+.phase2Records .phase2Upload{position:relative;display:inline-flex;flex-direction:row;align-items:center;justify-content:center;gap:9px;min-height:44px;padding:11px 16px;border:2px solid #17385b;border-radius:8px;background:#dca849;color:#17385b;font-size:12px;font-weight:900;letter-spacing:.045em;cursor:pointer;box-shadow:2px 3px 0 #a8a18e}
+.phase2Upload span{font-size:20px;line-height:1}
+.phase2UploadInput{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;font-size:0}
+.phase2Upload:focus-within{outline:3px solid #c45b3e;outline-offset:3px}

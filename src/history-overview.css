@@ -1,0 +1,30 @@
+
+/* IRON//OS Phase 3.1 — expandable mission archive */
+.ironHistoryCard{margin:10px 0;border:1px solid #527084;border-radius:9px;background:#142c43;color:#f4e8ce;overflow:hidden}
+.ironHistorySummary{display:block;cursor:pointer;padding:14px 15px;list-style:none}
+.ironHistorySummary::-webkit-details-marker{display:none}
+.ironHistoryHeading{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.ironHistoryHeading strong{color:#f4e8ce;font-size:1rem}
+.ironHistoryHeading small{color:#b9c9d2;font-size:.74rem}
+.ironHistoryMetrics{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0}
+.ironHistoryMetrics span{background:#213d55;border-radius:4px;padding:5px 9px;font-size:.75rem;color:#f4e8ce}
+.ironHistoryNames{font-size:.83rem;color:#d4e0e4;line-height:1.5}
+.ironHistoryHint{display:block;color:#d8b46a;font-size:.7rem;letter-spacing:.09em;margin-top:10px}
+
+
+.ironHistoryExpanded{padding:12px 15px 15px;border-top:1px solid #426078}
+.ironHistoryStats{display:flex;gap:15px;flex-wrap:wrap;margin-bottom:10px}
+.ironHistoryStats span{font-size:.7rem;color:#bacbd4}
+.ironHistoryStats strong{display:block;color:#f4e8ce;font-size:.92rem;margin-top:3px}
+.ironHistoryActivity{border-top:1px solid #35546b;padding:10px 0}
+.ironHistoryActivity strong{display:block;color:#f4e8ce;font-size:.9rem}
+.ironHistoryActivity small{display:block;color:#bacbd4;margin-top:4px}
+.ironHistoryActivity p{font-size:.8rem;color:#d4e0e4}
+.ironHistoryCard .sessionHistoryActions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+
+/* Phase 3.1 history readability repair */
+.ironHistoryCard .phase1HistorySets span{color:#173047!important;background:#f4e8cf;border-color:#dbc9a6;font-weight:700;line-height:1.45;overflow-wrap:anywhere}
+.ironHistoryCard .ironHistoryActivity small{color:#d7e2e9!important;opacity:1!important;font-size:.78rem;letter-spacing:normal;line-height:1.5}
+.ironHistoryCard .ironHistoryHint{display:inline-flex;align-items:center;gap:8px;color:#f0c778;font-weight:800}
+.ironHistoryCard .ironHistoryHint::after{content:""!important;display:inline-block;width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);margin-top:-4px}
+.ironHistoryCard[open] .ironHistoryHint::after{transform:rotate(225deg);margin-top:4px}

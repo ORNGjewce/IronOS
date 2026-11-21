@@ -1,0 +1,145 @@
+
+/* PHASE 1: NASA-retro contrast and consistent controls */
+:root{--phase1-navy:#203b62;--phase1-ink:#1c3552;--phase1-gold:#dba74a;--phase1-rust:#b95432;--phase1-cream:#fff8e8}
+.app main h2,.app main h3{color:var(--phase1-navy)}
+.app main section>h3,.sessionHead h3{border-bottom-color:var(--phase1-gold)}
+.app main small,.sessionPanel small{color:#47536a}
+.app main .hero h2,.app main .hero small{color:#fff8e8}
+.app main button:not(.setDone):not(.selected),.sessionDialog button{font-family:inherit;font-weight:800;letter-spacing:.035em;border-radius:8px;min-height:38px}
+.sessionPanel{border-color:var(--phase1-navy);background:#fffdf7}
+.sessionPanel .sessionHead small,.sessionPanel .sessionSignal{color:#a24a2d}
+.sessionPanel .sessionMetrics>div{background:#f7eedb;border:2px solid #d4b878}
+.sessionPanel .sessionMetrics strong{color:var(--phase1-navy)}
+.sessionPanel .sessionControls button,.sessionPanel .sessionExercise button,.sessionPanel .sessionHistoryActions button,.sessionPanel .sessionRest>button,.sessionPanel .phase1HistoryBreakdown summary{background:var(--phase1-cream);color:var(--phase1-navy);border:2px solid var(--phase1-navy);padding:9px 12px;box-shadow:2px 2px 0 #e0bb79}
+.sessionPanel .sessionSet button.setDone{background:#326c59;color:#fff}
+.sessionPanel .phase1AddExercise{display:block;width:100%;padding:14px;background:var(--phase1-navy);color:#fff;border:2px solid var(--phase1-gold);box-shadow:3px 3px 0 #d7a44a;margin:18px 0 12px}
+.sessionPanel .sessionRest{background:#f5ead4;border:2px solid #d6b878;padding:14px;gap:12px}
+.sessionPanel .sessionRest label{display:flex;align-items:center;gap:8px;font-weight:800;color:var(--phase1-ink)}
+.sessionPanel .sessionRest input[type=checkbox]{width:20px;height:20px;accent-color:var(--phase1-navy)}
+.sessionPanel .phase1Countdown{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;width:100%;padding:12px 15px;background:var(--phase1-navy);color:#fff;border:2px solid var(--phase1-gold);border-radius:8px}
+.sessionPanel .phase1Countdown small{color:#f0c980}
+.sessionPanel .phase1Countdown strong{font:800 clamp(30px,8vw,44px)/1 monospace;color:#fff}
+.sessionPanel .phase1Countdown button{background:var(--phase1-gold);color:#152a45;border:0;padding:10px}
+.sessionPanel .phase1FinishActions{display:flex;flex-direction:column;gap:10px;margin-top:14px}
+.sessionPanel .phase1Finish{margin:0;min-height:48px}
+.sessionPanel .phase1Cancel{width:100%;min-height:44px;background:#fffaf0;color:#853e30;border:2px solid #b47b6c;box-shadow:none}
+.sessionPanel .phase1Confirm small{color:#9b4b29}
+.sessionPanel .phase1Confirm h3{color:var(--phase1-navy);font-size:20px}
+.sessionPanel .phase1ConfirmActions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}
+.sessionPanel .phase1ConfirmActions button{padding:12px 8px;border:2px solid var(--phase1-navy);background:#fff8e8;color:var(--phase1-navy)}
+.sessionPanel .phase1ConfirmActions .phase1Danger{background:#8c3d30;color:#fff;border-color:#8c3d30}
+.sessionPanel .phase1HistoryBreakdown{margin:10px 0}
+.sessionPanel .phase1HistoryBreakdown summary{cursor:pointer;list-style-position:inside;font-size:12px}
+.sessionPanel .phase1HistoryExercise{padding:10px 8px;border-bottom:1px solid #d6c8ad;display:flex;flex-direction:column;gap:5px}
+.sessionPanel .phase1HistoryExercise strong{color:var(--phase1-navy)}
+.sessionPanel .phase1HistorySets{display:flex;flex-wrap:wrap;gap:5px}
+.sessionPanel .phase1HistorySets span{font-size:12px;background:#f4e8cf;border:1px solid #dbc9a6;padding:4px 7px;border-radius:5px}
+@media(max-width:420px){.sessionPanel .phase1ConfirmActions{grid-template-columns:1fr}.sessionPanel .phase1Countdown{justify-content:center;text-align:center}}
+
+/* IRON//OS — Orange Workout Log heading */
+.moduleTrain h2 {
+    color: #C45B3E;
+}
+/* PHASE 1 — Force orange TRAIN heading */
+.app .moduleHero.moduleTrain h2 {
+    color: #C45B3E !important;
+    -webkit-text-fill-color: #C45B3E !important;
+}
+/* IRON//OS: CIRCLE / CHECK WORKOUT SET CONTROL */
+.sessionPanel .sessionSet button.ironSetCheckButton {
+    width: 38px !important;
+    height: 38px !important;
+    min-width: 38px !important;
+    min-height: 38px !important;
+    padding: 0 !important;
+    border-radius: 50% !important;
+    border: 2px solid #779878 !important;
+    background: transparent !important;
+    color: #779878 !important;
+    -webkit-text-fill-color: currentColor !important;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+.sessionPanel .sessionSet button.ironSetCheckButton.setDone {
+    background: #779878 !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+.ironSetCheckIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+}
+.ironSetCheckIcon svg {
+    width: 22px;
+    height: 22px;
+}
+html.iron-night-mode .sessionPanel .sessionSet button.ironSetCheckButton:not(.setDone) {
+    border-color: #9fbea9 !important;
+    color: #9fbea9 !important;
+}
+html.iron-night-mode .sessionPanel .sessionSet button.ironSetCheckButton.setDone {
+    background: #779878 !important;
+    color: #101c27 !important;
+    -webkit-text-fill-color: #101c27 !important;
+}
+/* IRON//OS — RESTORE NASA BLUE SQUARE SET CONTROLS */
+.sessionPanel .sessionSet button.ironSetCheckButton {
+    width: 38px !important;
+    height: 38px !important;
+    min-width: 38px !important;
+    min-height: 38px !important;
+    border-radius: 3px !important;
+    border: 2px solid #427CA5 !important;
+    background: transparent !important;
+    color: #427CA5 !important;
+    -webkit-text-fill-color: currentColor !important;
+}
+.sessionPanel .sessionSet button.ironSetCheckButton.setDone {
+    border-color: #427CA5 !important;
+    background: #427CA5 !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+html.iron-night-mode .sessionPanel .sessionSet button.ironSetCheckButton {
+    border-color: #78A9CF !important;
+    color: #78A9CF !important;
+}
+html.iron-night-mode .sessionPanel .sessionSet button.ironSetCheckButton.setDone {
+    background: #427CA5 !important;
+    border-color: #427CA5 !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+/* IRON//OS — MATCH WORKOUT SET ACTION BUTTON SIZES */
+.sessionPanel .sessionSet button.ironSetCheckButton,
+.sessionPanel .sessionSet button.ironSetCheckButton.setDone {
+    box-sizing: border-box !important;
+    width: 34px !important;
+    height: 34px !important;
+    min-width: 34px !important;
+    max-width: 34px !important;
+    min-height: 34px !important;
+    max-height: 34px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 3px !important;
+    flex: 0 0 34px !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.sessionPanel .sessionSet button.ironSetCheckButton:not(.setDone) {
+    border: 2px solid #427CA5 !important;
+}
+.sessionPanel .sessionSet button.ironSetCheckButton.setDone {
+    border: 2px solid #427CA5 !important;
+}
+.sessionPanel .sessionSet .ironSetCheckIcon,
+.sessionPanel .sessionSet .ironSetCheckIcon svg {
+    width: 18px !important;
+    height: 18px !important;
+}

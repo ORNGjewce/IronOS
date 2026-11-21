@@ -1,0 +1,112 @@
+{
+  "source": "v1.5 muscle GLB",
+  "removed_geometry_nodes": 204,
+  "remaining_geometry_nodes": 484,
+  "removed_by_type": {
+    "group_label": 95,
+    "non_muscle": 109
+  },
+  "sample_removed": [
+    [
+      "Muscular system.g",
+      "group label"
+    ],
+    [
+      "Abdominal part of muscular system.g",
+      "group label"
+    ],
+    [
+      "Muscles of abdomen.g",
+      "group label"
+    ],
+    [
+      "Inguinal ligament.l",
+      "non-muscle structure"
+    ],
+    [
+      "Inguinal ligament.r",
+      "non-muscle structure"
+    ],
+    [
+      "Linea alba",
+      "non-muscle structure"
+    ],
+    [
+      "Cervical part of muscular system.g",
+      "group label"
+    ],
+    [
+      "Cervical bursae.g",
+      "group label"
+    ],
+    [
+      "Muscles of neck.g",
+      "group label"
+    ],
+    [
+      "Infrahyoid muscles.g",
+      "group label"
+    ],
+    [
+      "Laryngeal muscles.g",
+      "group label"
+    ],
+    [
+      "Pharyngeal muscles.g",
+      "group label"
+    ],
+    [
+      "Suprahyoid muscles.g",
+      "group label"
+    ],
+    [
+      "Digastric muscle.g",
+      "group label"
+    ],
+    [
+      "Cranial part of muscular system.g",
+      "group label"
+    ],
+    [
+      "Bursae of head.g",
+      "group label"
+    ],
+    [
+      "Muscles of head.g",
+      "group label"
+    ],
+    [
+      "Extra-ocular muscles.g",
+      "group label"
+    ],
+    [
+      "Intrinsic auricular muscles.g",
+      "group label"
+    ],
+    [
+      "Masticatory muscles.g",
+      "group label"
+    ],
+    [
+      "Muscles of auditory ossicles.g",
+      "group label"
+    ],
+    [
+      "Muscles of soft palate.g",
+      "group label"
+    ],
+    [
+      "Muscles of tongue.g",
+      "group label"
+    ],
+    [
+      "Superficial muscles of head.g",
+      "group label"
+    ],
+    [
+      "Epicranius muscle.g",
+      "group label"
+    ]
+  ],
+  "note": "Removed mesh attachments, not node transforms or children; mesh buffer still includes unreferenced geometry and may need subsequent compaction."
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">IRON OS</string>
+    <string name="title_activity_main">IRON OS</string>
+    <string name="package_name">com.ironos.fitness</string>
+    <string name="custom_url_scheme">com.ironos.fitness</string>
+</resources>

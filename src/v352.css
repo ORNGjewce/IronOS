@@ -1,0 +1,5 @@
+/* IRON//OS v3.5.2 */
+.sessionSet{grid-template-columns:28px minmax(65px,1fr) minmax(48px,.7fr) 36px 36px!important;gap:5px!important}
+.sessionSet .v352RemoveSet{min-width:32px;padding:4px!important;background:#6f2630!important;color:#fff!important;border:1px solid #d7a167!important;border-radius:5px!important;font-weight:800}
+.v352CancelWorkout{display:block;width:100%;margin:14px 0 20px!important;padding:12px!important;background:#5a2934!important;color:#fff8e6!important;border:2px solid #d6a45a!important;border-radius:6px!important;font-weight:800;letter-spacing:.04em}
+.v352Previous{margin-top:20px!important}

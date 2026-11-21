@@ -1,0 +1,255 @@
+.ironSettings{margin:18px 0 110px;color:#17334e}.ironSettingsHeading{background:#142c43;border-radius:10px;padding:19px;color:#f4e8ce;border-bottom:4px solid #d8b46a}.ironSettingsHeading small{color:#d8b46a;letter-spacing:.1em;font-weight:700}.ironSettingsHeading h2{color:#f4e8ce;margin:7px 0}.ironSettingsHeading p{color:#d3dfe6;margin:0}.ironSettingsTabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px;margin:14px 0}.ironSettingsTabs button{font-size:12px;padding:12px 3px;border:1px solid #597083;border-radius:5px;background:#e8dfca;color:#142c43;font-weight:800}.ironSettingsTabs button.active{background:#142c43;color:#f4e8ce;border-color:#d8b46a}.ironSettingsContent{display:grid;gap:14px}.ironSettingsCard{background:#142c43;color:#e7edf0;padding:16px;border-radius:9px;border:1px solid #49667d;margin:12px 0}.ironSettingsCard h3{color:#d8b46a;font-size:15px;letter-spacing:.08em;margin:0 0 13px}.ironSettingsCard p{color:#d3dee5;line-height:1.5;font-size:13px}.ironSettingsCard label{display:block;color:#f4e8ce;font-size:12px;font-weight:800;margin-bottom:7px}.ironSettingsCard select{display:block;width:100%;min-height:42px;background:#f4e8ce;color:#142c43;border:1px solid #d8b46a;border-radius:5px;padding:8px;font-weight:650}.ironSettingsCard .profileBackup{margin:10px 0 0;padding:12px;background:#1d3a52}.ironSettingsCard .profileBackup p,.ironSettingsCard .profileBackupStatus,.ironSettingsCard .profileBackupFine{color:#e4eaf0!important}.ironSettingsCard .profileBackupActions button{color:#142c43}.ironSettingsCard .profileBackupActions button+button{color:#f4e8ce}
+.ironSettingsGear{border:1px solid #d8b46a;background:#142c43;color:#f4e8ce;border-radius:7px;min-width:45px;min-height:43px;font-size:24px;cursor:pointer}.ironSettingsGear[aria-pressed="true"]{background:#d8b46a;color:#142c43}
+html.iron-night-mode body,html.iron-night-mode .app{background:#0c2033!important;color:#f4e8ce!important}html.iron-night-mode main>section:not(.hero):not(.ironSettings),html.iron-night-mode .moduleHero{background:#172e44;color:#f4e8ce}html.iron-night-mode h2,html.iron-night-mode h3{color:#d8b46a}html.iron-night-mode .ironSettingsCard h3{color:#d8b46a}html.iron-night-mode input,html.iron-night-mode select,html.iron-night-mode textarea{color:#142c43}html.iron-night-mode .ironSettingsHeading h2{color:#f4e8ce}
+
+/* Phase 3.2.1: Data-only settings entry */
+.ironDataSettingsEntry{display:flex;align-items:center;gap:12px;width:100%;margin:14px 0;padding:14px 16px;background:#142c43;color:#f4e8ce;border:1px solid #d8b46a;border-radius:9px;text-align:left;font-weight:800;letter-spacing:.06em}.ironDataSettingsEntry>span:nth-child(2){flex:1}.ironDataSettingsEntry small{display:block;font-size:11px;font-weight:500;letter-spacing:0;color:#d3dfe6;margin-top:4px}.ironDataSettingsIcon{color:#d8b46a;font-size:22px}.ironDataSettingsEntry>span:last-child{font-size:22px;color:#d8b46a}
+/* Dark mode: contrast across training and dashboard surfaces */
+html.iron-night-mode,html.iron-night-mode body,html.iron-night-mode #root,html.iron-night-mode .app{background:#0b1c2d!important;color:#e8edf1!important}
+html.iron-night-mode main{background:#0b1c2d!important;color:#e8edf1!important}
+html.iron-night-mode main section,html.iron-night-mode .moduleHero,html.iron-night-mode .weeklyPlan,html.iron-night-mode .sessionCard{color:#e8edf1}
+html.iron-night-mode .moduleTrain h2,html.iron-night-mode .moduleHero h2{color:#e9b56a!important;-webkit-text-fill-color:#e9b56a!important}
+html.iron-night-mode .weeklyPlan button,html.iron-night-mode .weeklyPlan strong,html.iron-night-mode .weeklyPlan h3,html.iron-night-mode .weeklyPlan h4{color:#f4e8ce}
+html.iron-night-mode .ironSettings,html.iron-night-mode .ironSettingsHeading,html.iron-night-mode .ironSettingsCard{color:#e8edf1}
+html.iron-night-mode .ironSettingsCard p,html.iron-night-mode .ironSettingsCard small{color:#d3dee5!important}
+html.iron-night-mode .ironSettingsTabs button:not(.active){background:#253e53;color:#f4e8ce}
+html.iron-night-mode .ironDataSettingsEntry{background:#1d3449}
+
+/* IRON//OS FULL NIGHT PALETTE — scoped exclusively to Night Mode.
+   No cream surfaces; navy bases with blue, sage, gold and rust accents. */
+html.iron-night-mode {
+  --night-bg:#091a2a; --night-panel:#142c43; --night-raised:#203b55;
+  --night-blue:#427ca5; --night-green:#779878;
+  --night-gold:#d8b46a; --night-rust:#c45b3e;
+  --night-text:#d9e7f1; --night-muted:#a6bfd0;
+  color-scheme:dark;
+}
+html.iron-night-mode,
+html.iron-night-mode body,
+html.iron-night-mode #root,
+html.iron-night-mode .app,
+html.iron-night-mode main {background:var(--night-bg)!important;color:var(--night-text)!important}
+/* Global panels, including the bright home, food and progress surfaces */
+html.iron-night-mode :is(header,footer,nav,.hero,.statrow article,section:not(.hero),.viewer,.info,.line,.weeklyPlan,.planDay,.sessionPanel,.sessionCard,.sessionSet,.sessionRest,.sessionMetrics>div,.sessionHistory,.ironHistoryCard,.ironHistoryMetrics span,.ironHistoryStats span,.ironHistoryActivity,.nutritionMetric,.nutritionWater,.nutritionForm,.nutritionWeek,.caloriePanel,.foodModal,.foodResult,.foodQuickLists,.foodQuickRow,.foodLiveTotals,.foodLiveGrid>div,.ngPanel,.ngResult,.ngHistory,.phase2Record,.phase2Photo,.phase2Notes,.phase2NoteGroup,.missionWidget,.missionWidgetEditor,.cardioSec,.cardioEntry,.cardioHistoryEntry,.ironSettings,.ironSettingsCard,.ironSettingsHeading,.profileBackup,.ironDialog,.sessionDialog,.v351Dialog) {
+  background:var(--night-panel)!important;
+  color:var(--night-text)!important;
+  border-color:var(--night-blue)!important;
+  box-shadow:none!important;
+}
+/* Raised summary surfaces */
+html.iron-night-mode :is(.statrow article,.sessionMetrics>div,.ironHistoryMetrics span,.ironHistoryStats span,.foodLiveGrid>div,.ngResult,.phase2NoteGroup,.missionWidget,.foodQuickRow,.sessionSet,.cardioEntry){background:var(--night-raised)!important}
+/* Readable typography: explicitly override the classic navy text */
+html.iron-night-mode :is(h1,h2,h3,h4,h5,h6,strong,b,summary,legend,label,p,small,span,li,td,th,.planDay,.planDay strong,.weeklyPlan strong,.weeklyPlan h3,.weeklyPlan h4,.sessionHead h3,.sessionSet label,.sessionSet span,.sessionSet small,.ironHistoryActivity strong,.ironHistoryActivity small,.nutritionMetric strong,.foodQuickRow,.phase2NoteGroup p,.moduleTrain h2,.moduleHero h2){color:var(--night-text)!important;-webkit-text-fill-color:currentColor!important}
+html.iron-night-mode :is(.sectionHead small,.sessionHead small,.ironHistoryHint,.ironHistoryActivity small,.phase2Header small,.nutritionMetric small,.ironSettingsHeading small,.ironSettingsCard p,.ironSettingsCard small){color:var(--night-muted)!important;-webkit-text-fill-color:currentColor!important}
+html.iron-night-mode :is(.moduleHero h2,.ironSettingsHeading h2,.ironSettingsCard h3,.sectionHead h2,.cardioHeading h3){color:var(--night-gold)!important;-webkit-text-fill-color:currentColor!important}
+/* Every form control gets a dark fill; avoid native bright select backgrounds */
+html.iron-night-mode :is(input,textarea,select,option,button,.chips button,.ironSettingsTabs button,.ironSettingsCard select,.phase2Upload,.phase2Form input,.phase2Form select,.ngFields input,.ngFields select,.foodQuickRow button,.sessionSet button,.sessionControls button,.sessionHistoryActions button){
+  background:var(--night-raised)!important;color:var(--night-text)!important;
+  -webkit-text-fill-color:var(--night-text)!important;
+  border-color:var(--night-blue)!important;
+}
+html.iron-night-mode :is(input,textarea)::placeholder{color:var(--night-muted)!important;-webkit-text-fill-color:var(--night-muted)!important;opacity:1}
+html.iron-night-mode :is(button.active,button.selected,.ironSettingsTabs button.active,.chips button.active,.sessionSet button.setDone,.cardioDone){background:var(--night-green)!important;color:var(--night-bg)!important;-webkit-text-fill-color:var(--night-bg)!important}
+html.iron-night-mode :is(.phase1Danger,.ironDialogDanger,.sessionCancel){background:var(--night-rust)!important;color:var(--night-bg)!important;-webkit-text-fill-color:var(--night-bg)!important}
+html.iron-night-mode :is(button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible){outline:2px solid var(--night-gold)!important;outline-offset:2px}
+/* Nav, cards and decorative surfaces stay dark; stripes retain their existing colors */
+html.iron-night-mode :is(.bottomNav,.bottomTabs,.tabBar,.navBar,.navDock,.navigation,.ironDataSettingsEntry,.ironSettingsTabs,.phase2History,.phase2Photos,.ironHistoryExpanded,.foodResults,.foodResultWrap,.ngWrap,.nutritionGrid,.missionWidgetGrid){background:var(--night-bg)!important;color:var(--night-text)!important}
+html.iron-night-mode :is(.bottomNav button,.bottomTabs button,.tabBar button,.navDock button){background:var(--night-panel)!important;color:var(--night-text)!important;-webkit-text-fill-color:var(--night-text)!important}
+html.iron-night-mode :is(.bottomNav button.active,.bottomTabs button.active,.tabBar button.active,.navDock button.active){background:var(--night-blue)!important;color:var(--night-bg)!important;-webkit-text-fill-color:var(--night-bg)!important}
+/* Keep badges legible even if Phase 1 assigned a cream fill. */
+html.iron-night-mode :is(.phase1HistorySets span,.ironHistoryActivity .phase1HistorySets span,.sessionHistoryBreakdown span){background:var(--night-raised)!important;color:var(--night-text)!important;-webkit-text-fill-color:var(--night-text)!important;border-color:var(--night-blue)!important}
+
+/* IRON//OS NIGHT MODE: FINAL FIVE PANELS - 2026-11-21 */
+/* These overrides are deliberately scoped to Night Mode only. */
+html.iron-night-mode .loadout,
+html.iron-night-mode .loadoutResult,
+html.iron-night-mode .v351LoadoutSection,
+html.iron-night-mode .cardioSection,
+html.iron-night-mode .cardioEntry,
+html.iron-night-mode .atlasReadout,
+html.iron-night-mode .nutritionReferences,
+html.iron-night-mode .referenceValues > div {
+  background:#142c43!important;
+  color:#d9e7f1!important;
+  -webkit-text-fill-color:#d9e7f1!important;
+  border-color:#427ca5!important;
+}
+html.iron-night-mode .loadoutResult,
+html.iron-night-mode .cardioEntry,
+html.iron-night-mode .referenceValues > div {
+  background:#203b55!important;
+}
+html.iron-night-mode :is(.loadout,.loadoutResult,.cardioSection,.cardioEntry,.atlasReadout,.nutritionReferences,.referenceValues > div) :is(summary,label,small,p,span,strong,h2,h3,h4,div) {
+  color:#d9e7f1!important;
+  -webkit-text-fill-color:#d9e7f1!important;
+}
+html.iron-night-mode :is(.loadout,.cardioSection,.atlasReadout,.nutritionReferences) :is(small,.loadoutNote,.dataNote) {
+  color:#b7cad8!important;
+  -webkit-text-fill-color:#b7cad8!important;
+}
+html.iron-night-mode .loadout > summary,
+html.iron-night-mode .cardioHeading h3,
+html.iron-night-mode .nutritionReferencesTitle h3,
+html.iron-night-mode .atlasReadout > strong {
+  color:#d8b46a!important;
+  -webkit-text-fill-color:#d8b46a!important;
+}
+html.iron-night-mode .loadout :is(input,select),
+html.iron-night-mode .cardioSection :is(input,select,textarea),
+html.iron-night-mode .nutritionReferences :is(input,select) {
+  background:#203b55!important;
+  color:#d9e7f1!important;
+  -webkit-text-fill-color:#d9e7f1!important;
+  border-color:#427ca5!important;
+}
+html.iron-night-mode .loadoutPlates button,
+html.iron-night-mode .cardioSection button,
+html.iron-night-mode .nutritionReferences button {
+  background:#203b55!important;
+  color:#d9e7f1!important;
+  -webkit-text-fill-color:#d9e7f1!important;
+  border-color:#427ca5!important;
+}
+html.iron-night-mode .loadoutPlates button.active,
+html.iron-night-mode .cardioSection button.cardioDone {
+  background:#779878!important;
+  color:#091a2a!important;
+  -webkit-text-fill-color:#091a2a!important;
+}
+html.iron-night-mode .loadoutBar .shaft { background:#8198a9!important; }
+/* Preserve the distinctive plate colors and physical illustration. */
+html.iron-night-mode .referenceValues strong {
+  color:#d9e7f1!important;
+  -webkit-text-fill-color:#d9e7f1!important;
+}
+
+/* IRON//OS NIGHT MODE: ANALYTICS CHART CONTRAST */
+/* Only chart text and gridlines; Classic Mode and plotted data remain unchanged. */
+html.iron-night-mode .missionChart svg {
+  color: #dbe8ef !important;
+}
+html.iron-night-mode .missionChart svg text {
+  fill: #dbe8ef !important;
+  opacity: 1 !important;
+}
+html.iron-night-mode .missionChart svg g > line {
+  stroke: #7093ab !important;
+  stroke-opacity: .65 !important;
+}
+html.iron-night-mode .missionChartRows span {
+  background: #213d55 !important;
+  color: #e1eaf0 !important;
+}
+html.iron-night-mode .missionChartRows b {
+  color: #e1eaf0 !important;
+}
+
+/* IRON//OS CLASSIC SETTINGS ABOUT CONTRAST FIX */
+/* Cream documentation card: dark text only in Classic Mode. */
+html:not(.iron-night-mode) .ironSettings .ironAbout {
+  color: #17334e;
+  -webkit-text-fill-color: #17334e;
+}
+html:not(.iron-night-mode) .ironSettings .ironAbout > :is(small,h2,h3,p) {
+  color: #17334e !important;
+  -webkit-text-fill-color: #17334e !important;
+}
+html:not(.iron-night-mode) .ironSettings .ironAbout > small { color: #38536b !important; -webkit-text-fill-color: #38536b !important; }
+/* Attribution articles remain dark navy with light text. */
+html:not(.iron-night-mode) .ironSettings .ironAbout article,
+html:not(.iron-night-mode) .ironSettings .ironAbout article :is(strong,p,small) {
+  color: #eee2c9 !important;
+  -webkit-text-fill-color: #eee2c9 !important;
+}
+html:not(.iron-night-mode) .ironSettings .ironAbout article a {
+  color: #edb66d !important;
+  -webkit-text-fill-color: #edb66d !important;
+}
+/* IRON//OS CLASSIC SETTINGS CONTRAST V2 */
+/* Only the cream documentation panel in Classic Mode. */
+html:not(.iron-night-mode) .ironSettings .ironSettingsCard .ironAbout {
+  background:#fbf5e9 !important;
+  color:#17334e !important;
+  -webkit-text-fill-color:#17334e !important;
+}
+html:not(.iron-night-mode) .ironSettings .ironSettingsCard .ironAbout :is(h2,h3,h4,p,small,strong,span,li) {
+  color:#17334e !important;
+  -webkit-text-fill-color:#17334e !important;
+  opacity:1 !important;
+}
+html:not(.iron-night-mode) .ironSettings .ironSettingsCard .ironAbout > small,
+html:not(.iron-night-mode) .ironSettings .ironSettingsCard .ironAbout > p {
+  color:#38536b !important;
+  -webkit-text-fill-color:#38536b !important;
+}
+/* Attribution articles are dark; preserve their readable light typography. */
+html:not(.iron-night-mode) .ironSettings .ironSettingsCard .ironAbout article {
+  background:#192b36 !important;
+  color:#eee2c9 !important;
+  -webkit-text-fill-color:#eee2c9 !important;
+}
+html:not(.iron-night-mode) .ironSettings .ironSettingsCard .ironAbout article :is(h2,h3,h4,p,small,strong,span,li) {
+  color:#eee2c9 !important;
+  -webkit-text-fill-color:#eee2c9 !important;
+}
+html:not(.iron-night-mode) .ironSettings .ironSettingsCard .ironAbout article a {
+  color:#edb66d !important;
+  -webkit-text-fill-color:#edb66d !important;
+}
+html:not(.iron-night-mode) .ironSettings .ironSettingsCard .ironAbout .ironSupportLink {
+  color:#ffffff !important;
+  -webkit-text-fill-color:#ffffff !important;
+}
+
+/* IRON//OS CLASSIC SETTINGS CONTRAST V3 — full settings surface */
+/* Scoped to Classic Mode; corrects dark-on-dark text and cream cards. */
+html:not(.iron-night-mode) .ironSettings .ironSettingsHeading :is(h1,h2,h3,h4,small,p),
+html:not(.iron-night-mode) .ironSettings .ironSettingsCard > :is(h2,h3,h4,small,label),
+html:not(.iron-night-mode) .ironSettings .ironSettingsCard .profileBackup :is(h2,h3,h4,small,label),
+html:not(.iron-night-mode) .ironSettings .ironSettingsCard .profileBackup :is(.profileBackupTitle,.profileBackupHeading) {
+  color:#f4e8ce!important;
+  -webkit-text-fill-color:#f4e8ce!important;
+  opacity:1!important;
+}
+html:not(.iron-night-mode) .ironSettings .ironSettingsHeading small,
+html:not(.iron-night-mode) .ironSettings .ironSettingsCard > h3,
+html:not(.iron-night-mode) .ironSettings .ironSettingsCard .profileBackup :is(h2,h3,h4,small) {
+  color:#d8b46a!important;
+  -webkit-text-fill-color:#d8b46a!important;
+}
+html:not(.iron-night-mode) .ironSettings .ironSettingsCard > p,
+html:not(.iron-night-mode) .ironSettings .ironSettingsHeading > p,
+html:not(.iron-night-mode) .ironSettings .ironSettingsCard .profileBackup :is(p,span,div) {
+  color:#e0e9ef!important;
+  -webkit-text-fill-color:#e0e9ef!important;
+  opacity:1!important;
+}
+/* Restore the intentional cream documentation surface. */
+html:not(.iron-night-mode) .ironSettings .ironAbout {
+  background:#fbf5e9!important;
+  color:#17334e!important;
+  -webkit-text-fill-color:#17334e!important;
+}
+html:not(.iron-night-mode) .ironSettings .ironAbout :is(h1,h2,h3,h4,p,small,strong,span,li) {
+  color:#17334e!important;
+  -webkit-text-fill-color:#17334e!important;
+  opacity:1!important;
+}
+html:not(.iron-night-mode) .ironSettings .ironAbout article {
+  background:#192b36!important;
+  color:#eee2c9!important;
+  -webkit-text-fill-color:#eee2c9!important;
+}
+html:not(.iron-night-mode) .ironSettings .ironAbout article :is(h2,h3,h4,p,small,strong,span,li) {
+  color:#eee2c9!important;
+  -webkit-text-fill-color:#eee2c9!important;
+}
+html:not(.iron-night-mode) .ironSettings .ironAbout article a {
+  color:#edb66d!important;
+  -webkit-text-fill-color:#edb66d!important;
+}
+html:not(.iron-night-mode) .ironSettings .ironAbout .ironSupportLink {
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+}
+

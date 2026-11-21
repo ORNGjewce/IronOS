@@ -1,0 +1,6 @@
+IRON//OS FEMALE ATLAS + ABOUT — Step 2 integration candidate
+
+Copy src/, public/, DATA_SOURCES.md into C:\iron-os (merge, do not delete other files).
+Back up your src directory first. Then npm run build; npx cap sync android; npx cap open android.
+
+Known limits: Mapping only recognizes explicit source names. Some muscles are missing. Original mirrored model may include bone/context geometry and previously hidden unwanted structures; verify visually before release. Exercise dataset attribution requires source confirmation.

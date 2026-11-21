@@ -1,0 +1,17 @@
+﻿<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/><meta name="theme-color" content="#e8dfc8"/><title>IRON//OS</title><link rel="apple-touch-icon" href="/iron-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<script>
+window.addEventListener('load', function () {
+  var nativeApp = window.Capacitor &&
+    typeof window.Capacitor.isNativePlatform === 'function' &&
+    window.Capacitor.isNativePlatform();
+
+  if (!nativeApp && 'serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js').catch(function (error) {
+      console.warn('Offline service worker unavailable:', error);
+    });
+  }
+});
+</script></head><body><div id="root"></div><script type="module" src="/src/main.tsx"></script></body></html>
+

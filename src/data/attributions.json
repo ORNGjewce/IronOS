@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Female Anatomy by CheRa_Muscles \u2014 CheRa",
+    "description": "Female anatomical geometry. Adapted from the original OBJ into a symmetrical mirrored teaching reconstruction; mesh groups were mapped to training regions. Mirrored structures are not independently sourced anatomy.",
+    "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+    "url": "https://skfb.ly/oxPUn"
+  },
+  {
+    "name": "Z-Anatomy \u2014 Models of Human Anatomy",
+    "description": "Source of the original male muscle atlas; geometry adapted and converted for the offline viewer.",
+    "license": "CC BY-SA 4.0 \u2014 retain source license and attribution for applicable adaptations",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy"
+  },
+  {
+    "name": "USDA FoodData Central",
+    "description": "Nutrition reference data, including SR Legacy and survey foods used in the offline catalog.",
+    "license": "US government public-domain data; individual third-party data may carry separate terms",
+    "url": "https://fdc.nal.usda.gov/"
+  },
+  {
+    "name": "Exercise library",
+    "description": "Imported exercise dataset and IRON//OS authored descriptions. Original upstream creator/license must be confirmed before final distribution.",
+    "license": "Attribution/license verification pending",
+    "url": "https://github.com/"
+  }
+]

@@ -1,0 +1,3 @@
+import React from 'react';
+import sources from './data/attributions.json';
+export default function AboutSupport(){return <section className="ironAbout"><small>IRON//OS / MISSION DOCUMENTATION</small><h2>ABOUT THE MISSION</h2><p>Offline training, nutrition and anatomical exploration.</p><h3>DATA SOURCES & ATTRIBUTION</h3>{sources.map(s=><article key={s.name}><strong>{s.name}</strong><p>{s.description}</p><small>{s.license}</small><p><a href={s.url} target="_blank" rel="noopener noreferrer">SOURCE & CREDITS ↗</a></p></article>)}<h3>SUPPORT THE MISSION</h3><p>Help support independent development of IRON//OS.</p><a className="ironSupportLink" href="https://buymeacoffee.com/orngjewce" target="_blank" rel="noopener noreferrer">🚀 FUEL THE NEXT LAUNCH ↗</a></section>}
